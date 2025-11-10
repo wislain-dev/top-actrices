@@ -7,29 +7,16 @@ ul, ol
 {
     list-style: none;
 }
-body
-{
-    background: #bfbfbf url("background.jpg") repeat-x;
-    font-family: Arial, sans-serif;
+body {
+    background: #bfbfbf url("images/background.jpg") repeat-x;
 }
-.bw
-{
-    position: absolute;
-    left: 0px;
-    width: 140px;
-    height: 500px;
-    cursor: pointer;
-    background: url("bw-image.jpg") no-repeat;
-    opacity: 0.7;
+
+.bw {
+    background: url("images/bw-image.jpg") no-repeat;
 }
-.color
-{
-    position: absolute;
-    left: 140px;
-    width: 140px;
-    height: 500px;
-    cursor: pointer;
-    background: url("color-image.jpg") no-repeat;
+
+.color {
+    background: url("images/color-image.jpg") no-repeat;
 }
 
 header
@@ -183,3 +170,4 @@ header h1
     font-size: 24px;
 
 }
+
